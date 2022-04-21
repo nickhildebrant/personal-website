@@ -11,8 +11,8 @@
 
 * {
 	box-sizing: border-box;
-	font-family: 'Roboto Slap';
-	color: #7FFFD4
+	font-family: Source Code Pro;
+	margin-top: 0;
 }
 
 html, body {
@@ -20,8 +20,8 @@ html, body {
 	padding: 0;
 }
 
-.nav ul {
-	margin: 0;
+.header-nav li {
+	padding-top: 10;
 }
 
 .nav li {
@@ -30,16 +30,41 @@ html, body {
 
 .nav a {
 	display: inline-block;
-	padding: 1.0em;
-	color: white;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	color: rgba(0, 0, 0, .5);
 	text-decoration: none;
 }
 
-.main-nav {
+.nav a:hover {
+	background-color: rgba(0, 120, 0, .3);
+}
+
+.header-nav {
 	text-align: center;
-	font-size: 3.0em;
-	font-family: 'Source Code Pro';
-	font-weight: medium;;
-	border-bottom: 1px solid #FFFFFF;
-	background-color: #2E8B57
-}	
+	font-size: 1.2em;
+}
+
+.header {
+	background-image: url("Images/header-background.jpg");
+	background-size: cover;
+	padding-bottom: 5px;
+}
+
+.name {
+	text-align: left;
+	margin: 10 auto;
+	font-size: 4em;
+	font-family: Roboto Slab;
+}
+
+.role {
+	text-align: left;
+	margin: 10;
+	font-size: 2em;
+	font-family: Roboto Mono;
+}
+
+.about-section {
+	
+}
