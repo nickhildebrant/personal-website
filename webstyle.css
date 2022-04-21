@@ -8,3 +8,38 @@
 	font-family: 'Roboto Slab', serif;
 	font-family: 'Source Code Pro', monospace;
 }
+
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto Slap';
+	color: #7FFFD4
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.nav ul {
+	margin: 0;
+}
+
+.nav li {
+	display: inline;
+}
+
+.nav a {
+	display: inline-block;
+	padding: 1.0em;
+	color: white;
+	text-decoration: none;
+}
+
+.main-nav {
+	text-align: center;
+	font-size: 3.0em;
+	font-family: 'Source Code Pro';
+	font-weight: medium;;
+	border-bottom: 1px solid #FFFFFF;
+	background-color: #2E8B57
+}	
