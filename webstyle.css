@@ -68,4 +68,35 @@ html, body {
 .about-section {
 	text-align: center;
 	margin: 10;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+/* skills styling */
+.skills {
+	text-align: center;
+}
+
+
+/* footer styling */
+.footer {
+	background-color: #02CC60;
+	color: blue;
+	padding-top: .50em;
+	padding-bottom: .25em;
+}
+
+.footer-container {
+	display: flex;
+	align-items: bottom;
+}
+
+.footer-container ul {
+	flex-grow: 1;
+	text-align: right;
+}
+
+.footer-nav img {
+	width: 45px;
+	height: 45px;
 }
