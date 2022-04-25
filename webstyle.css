@@ -66,5 +66,6 @@ html, body {
 }
 
 .about-section {
-	
+	text-align: center;
+	margin: 10;
 }
