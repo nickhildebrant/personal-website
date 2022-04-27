@@ -129,11 +129,6 @@ html, body {
 	align-items: bottom;
 }
 
-.footer-container ul {
-	text-align: center;
-	margin: 15;
-	display: table-footer-group;
-
 .footer-nav img {
 	width: 45px;
 	height: 45px;

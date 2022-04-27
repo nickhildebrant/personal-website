@@ -65,76 +65,8 @@ html, body {
 	font-family: Roboto Mono;
 }
 
-.about-section {
-	text-align: center;
-	margin: 10;
-	padding-left: 8px;
-	padding-right: 8px;
-}
-
-/* skills styling */
-.skills {
-	text-align: center;
-}
-
-/* email form formatting */
-.email-page {
-	background-color: rgba(0,255,0,.1);
-	text-align: center;
-	padding: 5px;
-}
-
-.email-page button {
-	font-family: Roboto Mono;
-	display: inline-block;
-	border-radius: 8px;
-}
-
 .email-form {
-	color: green;
-	background-color: rgba(0,1,0,.1);
-	font-weight: bolder;
-	padding: 20px;
-	margin-bottom: 5%;
-	margin-left: 10%;
-	margin-right: 10%;
-	border: groove;
-}
-
-.email-form textarea {
-	resize: none;
-	width: 640px;
-	height: 160px;
-}
-
-#warning {
-	padding-left: 60px;
-	padding-right: 60px;
-}
-
-/* instagram page formatting */
-
-
-/* footer styling */
-.footer {
-	background-color: #02CC60;
-	color: blue;
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-}
-
-.footer-container {
-	position: relative;
-	align-items: bottom;
-}
-
-.footer-container ul {
 	text-align: center;
-	margin: 15;
-	display: table-footer-group;
-
-.footer-nav img {
-	width: 45px;
-	height: 45px;
+	font-family: Press Start 2P;
 }
+
