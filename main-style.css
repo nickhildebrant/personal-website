@@ -18,6 +18,7 @@
 html, body {
 	margin: 0;
 	padding: 0;
+	background-color: rgba(0,255,0,.05);
 }
 
 .header-nav li {
@@ -67,9 +68,14 @@ html, body {
 
 #sectionAbout {
 	text-align: center;
-	margin: 10;
-	padding-left: 8px;
-	padding-right: 8px;
+	margin: 10px;
+	padding: 0 32px;
+}
+
+#sectionAbout button {
+	font-family: Roboto Mono;
+	display: inline-block;
+	border-radius: 8px;
 }
 
 /* skills styling */
@@ -113,13 +119,20 @@ html, body {
 }
 
 /* instagram page formatting */
+.ig-about {
+	padding: 8px 32px;
+	text-align: center;
+	margin: 64px;
+}
 
+.ig-media {
+	padding: 16px;
+	diplay: flex;
+	align-self: center;
+}
 
 /* footer styling */
 .footer {
-	position: fixed;
-	width: 100%;
-	height: auto;
 	margin-bottom: 0px;
 	text-align: center;
 	padding: 40px 0;
