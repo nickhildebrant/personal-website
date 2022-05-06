@@ -65,7 +65,7 @@ html, body {
 	font-family: Roboto Mono;
 }
 
-.about-section {
+#sectionAbout {
 	text-align: center;
 	margin: 10;
 	padding-left: 8px;
@@ -73,7 +73,7 @@ html, body {
 }
 
 /* skills styling */
-.skills {
+#sectionSkills {
 	text-align: center;
 }
 
@@ -117,19 +117,65 @@ html, body {
 
 /* footer styling */
 .footer {
-	background-color: #02CC60;
-	color: blue;
-	position: absolute;
-	bottom: 0;
+	position: fixed;
 	width: 100%;
+	height: auto;
+	margin-bottom: 0px;
+	text-align: center;
+	padding: 40px 0;
+	background-color: green;
+	color: white
 }
 
-.footer-container {
-	position: relative;
-	align-items: bottom;
+.footer img {
+	width: 48px;
+	length: 48px;
 }
 
-.footer-nav img {
-	width: 45px;
-	height: 45px;
+.footer ul {
+	list-style: none;
+	font-size: 18px;
+	line-height: 1.6;
+}
+
+.footer li {
+	padding: 0 10px;
+	display: inline;
+}
+
+.footer ul a {
+	color: inherit;
+	text-decoration: none;
+	opacity: 0.5;
+	display: inline;
+}
+
+.footer ul a:hover {
+	opacity: 1;
+}
+
+.footer .contacts {
+	padding-bottom: 25px;
+}
+
+.footer .contacts > a {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	margin: 0 8px;
+	color: inherit;
+	opacity: 0.75;
+}
+
+.footer .contacts > a:hover {
+	opacity: 1.0;
+}
+
+.footer .name {
+	margin-top: 15px;
+	text-align: center;
+	font-size: 14px;
+	color: #aaa;
+	margin-bottom: 0;
 }
