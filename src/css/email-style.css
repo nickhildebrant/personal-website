@@ -18,6 +18,9 @@
 html, body {
 	margin: 0;
 	padding: 0;
+	color: rgb(0,255,0);
+	text-shadow: 0 0 4px rgb(0,255,0);
+	background-color: rgba(0,0,0,.75);
 }
 
 .header-nav li {
@@ -32,8 +35,8 @@ html, body {
 	display: inline-block;
 	padding-left: 1.5em;
 	padding-right: 1.5em;
-	color: rgba(0, 0, 0, .5);
 	text-decoration: none;
+	color: white;
 }
 
 .nav a:hover {
@@ -46,40 +49,34 @@ html, body {
 }
 
 .header {
-	background-image: url("Images/header-background.jpg");
 	background-size: cover;
 	padding-bottom: 5px;
+	background-color: rgba(0, 255, 0, 0.1);
 }
 
-.name {
+.name h1 {
 	text-align: left;
 	margin: 10 auto;
 	font-size: 4em;
 	font-family: Roboto Slab;
 }
 
-.role {
-	text-align: left;
-	margin: 10;
-	font-size: 2em;
-	font-family: Roboto Mono;
+@keyframes cursor-blink {
+	0% {
+		opacity: 0;
+	}
 }
 
-.about-section {
-	text-align: center;
-	margin: 10;
-	padding-left: 8px;
-	padding-right: 8px;
-}
-
-/* skills styling */
-.skills {
-	text-align: center;
+.name h1::after {
+	content: "_";
+	width: 24px;
+	height: 48px;
+	display: inline-block;
+	animation: cursor-blink 1.5s steps(2) infinite;
 }
 
 /* email form formatting */
 .email-page {
-	background-color: rgba(0,255,0,.1);
 	text-align: center;
 	padding: 5px;
 }
@@ -112,29 +109,64 @@ html, body {
 	padding-right: 60px;
 }
 
-/* instagram page formatting */
-
-
 /* footer styling */
 .footer {
-	background-color: #02CC60;
-	color: blue;
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-}
-
-.footer-container {
-	position: relative;
-	align-items: bottom;
-}
-
-.footer-container ul {
+	margin-bottom: 0px;
 	text-align: center;
-	margin: 15;
-	display: table-footer-group;
+	padding: 40px 0;
+	background-color: rgba(0, 255, 0, .1);
+	color: white
+}
 
-.footer-nav img {
-	width: 45px;
-	height: 45px;
+.footer img {
+	width: 48px;
+	length: 48px;
+}
+
+.footer ul {
+	list-style: none;
+	font-size: 18px;
+	line-height: 1.6;
+}
+
+.footer li {
+	padding: 0 10px;
+	display: inline;
+}
+
+.footer ul a {
+	color: inherit;
+	text-decoration: none;
+	opacity: 0.5;
+	display: inline;
+}
+
+.footer ul a:hover {
+	opacity: 1;
+}
+
+.footer .contacts {
+	padding-bottom: 25px;
+}
+
+.footer .contacts > a {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	margin: 0 8px;
+	color: inherit;
+	opacity: 0.75;
+}
+
+.footer .contacts > a:hover {
+	opacity: 1.0;
+}
+
+.footer .name {
+	margin-top: 15px;
+	text-align: center;
+	font-size: 14px;
+	color: #aaa;
+	margin-bottom: 0;
 }

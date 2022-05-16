@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,700&family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Mono:ital,wght@1,700&family=Roboto+Slab:wght@500&family=Source+Code+Pro:ital,wght@0,400;1,400;1,900&display=swap');
+
+@font-face {
+	font-family: 'Press Start 2P', cursive;
+	font-family: 'Roboto Mono', monospace;
+	font-family: 'Roboto Slab', serif;
+	font-family: 'Source Code Pro', monospace;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: Source Code Pro;
+	margin-top: 0;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	color: rgb(0,255,0);
+	text-shadow: 0 0 4px rgb(0,255,0);
+	background-color: rgba(0,0,0,.75);
+}
+
+.header-nav li {
+	padding-top: 10;
+}
+
+.nav li {
+	display: inline;
+}
+
+.nav a {
+	display: inline-block;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	text-decoration: none;
+	color: white;
+}
+
+.nav a:hover {
+	background-color: rgba(0, 120, 0, .3);
+}
+
+.header-nav {
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.header {
+	background-size: cover;
+	padding-bottom: 5px;
+	background-color: rgba(0, 255, 0, 0.1);
+}
+
+.name h1 {
+	text-align: left;
+	margin: 10 auto;
+	font-size: 4em;
+	font-family: Roboto Slab;
+}
+
+@keyframes cursor-blink {
+	0% {
+		opacity: 0;
+	}
+}
+
+.name h1::after {
+	content: "_";
+	width: 24px;
+	height: 48px;
+	display: inline-block;
+	animation: cursor-blink 1.5s steps(2) infinite;
+}
+
+/* instagram page formatting */
+.ig-about {
+	padding: 8px 32px;
+	text-align: center;
+	margin: 64px;
+}
+
+.ig-media {
+	padding: 16px;
+	diplay: flex;
+	align-self: center;
+}
+
+/* footer styling */
+.footer {
+	margin-bottom: 0px;
+	text-align: center;
+	padding: 40px 0;
+	background-color: rgba(0, 255, 0, .1);
+	color: white
+}
+
+.footer img {
+	width: 48px;
+	length: 48px;
+}
+
+.footer ul {
+	list-style: none;
+	font-size: 18px;
+	line-height: 1.6;
+}
+
+.footer li {
+	padding: 0 10px;
+	display: inline;
+}
+
+.footer ul a {
+	color: inherit;
+	text-decoration: none;
+	opacity: 0.5;
+	display: inline;
+}
+
+.footer ul a:hover {
+	opacity: 1;
+}
+
+.footer .contacts {
+	padding-bottom: 25px;
+}
+
+.footer .contacts > a {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	margin: 0 8px;
+	color: inherit;
+	opacity: 0.75;
+}
+
+.footer .contacts > a:hover {
+	opacity: 1.0;
+}
+
+.footer .name {
+	margin-top: 15px;
+	text-align: center;
+	font-size: 14px;
+	color: #aaa;
+	margin-bottom: 0;
+}
