@@ -24,15 +24,6 @@ html, body {
 	background-image: radial-gradient(rgba(0, 60, 0, 0.25), black 80%);
 }
 
-body::after {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100vw;
-	height: 100vh;
-}
-
 .header-nav li {
 	padding-top: 10;
 }
@@ -100,53 +91,6 @@ body::after {
 /* skills styling */
 #sectionSkills {
 	text-align: center;
-}
-
-/* email form formatting */
-.email-page {
-	text-align: center;
-	padding: 5px;
-}
-
-.email-page button {
-	font-family: Roboto Mono;
-	display: inline-block;
-	border-radius: 8px;
-}
-
-.email-form {
-	color: green;
-	background-color: rgba(0,1,0,.1);
-	font-weight: bolder;
-	padding: 20px;
-	margin-bottom: 5%;
-	margin-left: 10%;
-	margin-right: 10%;
-	border: groove;
-}
-
-.email-form textarea {
-	resize: none;
-	width: 640px;
-	height: 160px;
-}
-
-#warning {
-	padding-left: 60px;
-	padding-right: 60px;
-}
-
-/* instagram page formatting */
-.ig-about {
-	padding: 8px 32px;
-	text-align: center;
-	margin: 64px;
-}
-
-.ig-media {
-	padding: 16px;
-	diplay: flex;
-	align-self: center;
 }
 
 /* footer styling */
