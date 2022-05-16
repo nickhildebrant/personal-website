@@ -19,8 +19,18 @@ html, body {
 	margin: 0;
 	padding: 0;
 	color: rgb(0,255,0);
-	text-shadow: 0 0 4px rgb(0,255,0);
+	text-shadow: 0 0 3px rgb(0,255,0);
 	background-color: rgba(0,0,0,.75);
+	background-image: radial-gradient(rgba(0, 60, 0, 0.25), black 80%);
+}
+
+body::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
 }
 
 .header-nav li {
