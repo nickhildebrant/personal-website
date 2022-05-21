@@ -107,6 +107,7 @@ html, body {
 
 .content {
 	animation: textShadow 1.6 infinite;
+	height 120%;
 }
 
 .header-nav li {
@@ -159,41 +160,6 @@ html, body {
 	height: 48px;
 	display: inline-block;
 	animation: cursor-blink 1.5s steps(2) infinite;
-}
-
-#sectionAbout {
-	text-align: center;
-	margin: 10px 10%;
-	padding: 0 32px;
-}
-
-#sectionAbout button {
-	font-family: Roboto Mono;
-	display: inline-block;
-	border-radius: 8px;
-}
-
-/* skills styling */
-#sectionSkills {
-	text-align: center;
-}
-
-/* projects styling */
-#sectionProjects {
-	width: 100%;
-	text-align: center;
-	display: inline-block;
-	list-style: none;
-}
-
-.proj-3 li {
-	padding: 0 32px;
-	display: inline-block;
-}
-
-.proj-6 li {
-	padding: 0 32px;
-	display: inline-block;
 }
 
 /* footer styling */
