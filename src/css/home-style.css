@@ -20,16 +20,12 @@
 #sectionProjects {
 	width: 100%;
 	text-align: center;
-	display: inline-block;
-	list-style: none;
 }
 
-.proj-3 li {
-	padding: 0 32px;
-	display: inline-block;
+.proj-3 {
+	display: inline;
 }
 
-.proj-6 li {
-	padding: 0 32px;
-	display: inline-block;
+.proj-6 {
+	
 }
