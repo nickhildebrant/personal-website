@@ -1,11 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,700&family=Roboto+Slab:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Mono:ital,wght@1,700&family=Roboto+Slab:wght@500&family=Source+Code+Pro:ital,wght@0,400;1,400;1,900&display=swap');
 
 @font-face {
 	font-family: 'Press Start 2P', cursive;
-	font-family: 'Roboto Mono', monospace;
-	font-family: 'Roboto Slab', serif;
 	font-family: 'Source Code Pro', monospace;
 }
 
@@ -19,9 +15,9 @@ html, body {
 	margin: 0;
 	padding: 0;
 	color: rgb(0,255,0);
-	text-shadow: 0 0 3px rgb(0,255,0);
+	text-shadow: 0 0 4px rgb(0,255,0);
 	background-color: rgba(0,0,0,.75);
-	background-image: radial-gradient(rgba(0, 60, 0, 0.3), black 80%);
+	background-image: radial-gradient(rgba(0, 60, 0, 0.35), black 80%);
 }
 
 /* CRT Styling from: http://aleclownes.com/2017/02/01/crt-display.html */
@@ -109,6 +105,11 @@ html, body {
 	animation: textShadow 1.6 infinite;
 }
 
+h2 {
+	font-size: 2em;
+	font-family: 'Press Start 2P'
+}
+
 .header-nav li {
 	padding-top: 10;
 }
@@ -144,13 +145,11 @@ html, body {
 	padding-left: 8px;
 	text-align: left;
 	margin: 10 auto;
-	font-size: 4em;
+	font-size: 5em;
 }
 
 @keyframes cursor-blink {
-	0% {
-		opacity: 0;
-	}
+	0% { opacity: 0; }
 }
 
 .name h1::after {

@@ -1,31 +1,58 @@
 /* hompage styling */
+section { padding-top: 16px; }
+
 #sectionAbout {
 	text-align: center;
-	margin: 10px 10%;
+	margin: 10px 20%;
 	padding: 0 32px;
 }
 
 #sectionAbout button {
 	font-family: Roboto Mono;
+	font-size: 16px;
 	display: inline-block;
-	border-radius: 8px;
+	width: 128px;
+	height: 32px;
+	border-radius: 12px;
+	border: outset;
 }
 
 /* skills styling */
-#sectionSkills {
-	text-align: center;
-}
+#sectionSkills { text-align: center; }
+
+/* tools styling */
+#sectionTools { text-align: center; }
 
 /* projects styling */
 #sectionProjects {
 	width: 100%;
 	text-align: center;
+	padding-bottom: 16px;
+	display: inline-block;
 }
 
-.proj-3 {
+#sectionProjects h3 {
 	display: inline;
+	padding: 8px 48px;
+	font-style: italic;
+	font-size: 24px;
 }
 
-.proj-6 {
-	
+#sectionProjects div { 
+	margin: 0% 20%;
+	padding: 16px 0px;
 }
+
+#sectionProjects iframe {
+	margin-top: 4px;
+	display: inline-block;
+}
+
+#sectionProjects a { color: white; }
+
+#sectionProjects a:hover {
+	background-color: white;
+	color: green;
+}
+
+hr { margin: 10px 20%; }
