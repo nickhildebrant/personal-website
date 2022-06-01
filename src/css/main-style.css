@@ -17,7 +17,7 @@ html, body {
 	color: rgb(0,255,0);
 	text-shadow: 0 0 4px rgb(0,255,0);
 	background-color: rgba(0,0,0,.75);
-	background-image: radial-gradient(rgba(0, 60, 0, 0.35), black 80%);
+	background-image: radial-gradient(rgba(0, 60, 0, 0.45), black 80%);
 }
 
 /* CRT Styling from: http://aleclownes.com/2017/02/01/crt-display.html */
