@@ -1,29 +1,152 @@
 <!DOCTYPE html>
 <html lang = "en-US">
+  
 	<head>
-		<title>E-mail Confirmation</title>
+	  <title>Nicholas Hildebrant | Website Home</title>
+	  <link rel="stylesheet" type="text/css" href="../css/main-style.css">
+	  <link rel="stylesheet" type="text/css" href="../css/home-style.css">
+	  <link rel="icon" type="image/x-icon" href="../../Images/id-modified.png">
 	</head>
 	
 	<body class="content">
-		<header>
-      <nav>
-        <ul>
-		  <li><a href="index.html">HOME</a></li>
-          <li><a href="index.html/#sectionAbout">ABOUT</a></li>
-          <li><a href="index.html/#sectionSkills">SKILLS</a></li>
-          <li><a href="index.html/#sectionProjects">PROJECTS</a></li>
-          <li><a href="index.html/#sectionContacts">CONTACTS</a></li>
-        </ul>
-      </nav>
-    
-      <hr>
-      
-	  <span class="name"><h1>Nicholas Hildebrant ></h1></span>
-      <h2>Software Engineer Intern</h2>
-	  <hr>
-  </header>
-	
-		<h3>Thank you for the email! I look forward to hearing from you.</h3>
-		<button><a href="index.html">BACK TO HOME</a></button>
+	  <header class="header">
+		  <nav class="nav header-nav">
+			<ul>
+			  <li><a href="../../index.html#index.html">HOME</a></li>
+			  <li><a href="../../index.html#sectionAbout">ABOUT</a></li>
+			  <li><a href="../../index.html#sectionSkills">SKILLS</a></li>
+			  <li><a href="../../index.html#sectionProjects">PROJECTS</a></li>
+			  <li><a href="../../index.html#sectionContacts">CONTACTS</a></li>
+			</ul>
+		  </nav>
+		  
+		  <span class="name"><h1>Nicholas Hildebrant ></h1>
+	  </header>
+	  
+	  <section id="sectionAbout">
+	    <h2>My Projects</h2>
+	    <p>This is a history of all computing projects I have created. Below I have an extended list of all that
+		can be found on my GitHub Page where you can see the source code for these projects. This website is also one
+		of these projects!</p>
+	  </section>
+	  
+	  <br>
+	  
+	  <section id="sectionProjects">
+		<h2>Projects</h2><a href="https://github.com/nickhildebrant" target="_blank">Link to My GitHub</a></p>
+		<div class="proj-3">
+			<div>
+				<h3>DirectX11 Renderer</h3>
+				<p>Currently researching how to develop a renderer using the DirectX11 Library and C++.
+				As of now, the renderer displays a 2-Dimensional Triangle using Vertex and Pixel shaders.
+				I have plans to develop a full 3-Dimensional engine with HLSL shaders.
+				<a href="https://github.com/nickhildebrant/directx-tutorial" target="_blank">Source Repo</a></p>
+				<img src="https://user-images.githubusercontent.com/78184238/186273908-9b883fac-c2a2-4229-92aa-a9e03067c1b2.png"
+					width="480" height="360" alt="Picture of my renderer displaying a RGB Triangle in a Window."/>
+			</div>
+		
+			<div>
+				<h3>Algorithm Visualizer</h3>
+				<p>Using the SFML Graphics library with C++ as the main language, I created a visualizer
+				for various sorting algorithms. Each algorithm sorts through 100 random integers and uses
+				2-Dimensional white rectangles to visual these numbers. When a rectangle is being selected 
+				to be sorted, it is highlighted green and a sound-frequency is played through the devices 
+				speakers to strengthen the idea of sorting. This visualizer has implementations of Heapsort,
+				Quicksort, MergeSort, Bubble Sort, Insertion Sort, and Selection Sort as well as a reshuffle
+				action at the press of a button.</p>
+				<img src="https://user-images.githubusercontent.com/78184238/177049970-a02cf950-d70e-4ee9-96d4-f67b8ae1d20d.png" 
+					width="480" height="360" alt="Picture of the the visualizer with non-sorted rectangles."/>
+			</div>
+		
+			<div>
+				<h3>Personal Website</h3>
+				<p>This website was built using HTML and CSS to display, Me. This website
+				is hosted on GitHub pages and uses Git for version control.</p>
+			</div>
+		</div>
+		
+		<div class="proj-6">	
+			<div>
+				<h3>3D Unity Game</h3>
+				<p>Parts Not Included: A 3D dimensional puzzle game made in Unity3D using C#.
+				I worked on a team to design and develop this game following Agile/Scrum methodology. 
+				I handeled the enemy design, AI pathing, animation states, and assisted in general systems.
+				Read more about it on:
+				<a href="https://rdgh0st.itch.io/parts-not-included" target="_blank">Itch.io</a></p>
+				<img src="../../Images/parts_not_included.jpg" alt="Title Picture of Parts Not Included" width="480" height="360"/>
+			</div>
+		
+			<div>
+				<h3>Amazon Alexa Skill</h3>
+				<p>Choose-Your-Own-Adventure Game audio-text based Alexa skills that works on the Alexa
+				home devices. Completed in a week in High School.</p>
+			</div>
+		
+			<div>
+				<h3>Chameleon LED Shirt</h3>
+				<p>Using an Arduino, I worked with a team to create a shirt that changes colors to
+				a color that the attached glove touches. The RGB sensor on the finger sends values which
+				we used to change the RGB LEDs underneath the shirt.</p>
+				<iframe src="https://drive.google.com/file/d/1f2K7S2OGshA7MF8W_pKfLab3NaSPxmSr/preview" width="480" height="360" allow="autoplay"></iframe>
+				<iframe src="https://drive.google.com/file/d/1wSdKadkb-DwSW8lAm21x4TWqQa2lLC8X/preview" width="480" height="360" allow="autoplay"></iframe>
+			</div>
+		</div>
+	  </section>
+	 
+	  <br><br>
+	  
+	  <section id="sectionSkills">
+		<h2>Programming Languages</h2>
+		<div class="lang-pro">
+			<img title="C++" src="../../Images/Logos/ProgrammingLanguages/cpp.png" alt="C++ Logo" width="84" height="84"/>
+			<img title="C#" src="../../Images/Logos/ProgrammingLanguages/csharp.png" alt="C# Logo" width="84" height="84"/>
+			<img title="C" src="../../Images/Logos/ProgrammingLanguages/c.png" alt="C Logo" width="84" height="84"/>
+			<img title="Java" src="../../Images/Logos/ProgrammingLanguages/java.png" alt="Java Logo" width="84" height="84"/>
+		</div>
+		
+		<div class="lang-self">
+			<img title="Python" src="../../Images/Logos/ProgrammingLanguages/python.png" alt= "Python Logo" width="84" height="84"/>
+			<img title="HTML & CSS" src="../../Images/Logos/ProgrammingLanguages/css_html.png" alt= "HTML and CSS Logo" width="144" height="84"/>
+			<img title="Shader Languages" src="../../Images/Logos/ProgrammingLanguages/shaderlanguages.png" alt= "HLSL, GLSL, & GC" width="84" height="84"/>
+		</div>
+		
+		<div class="lang-edu">
+			<img title="MIPS32" src="../../Images/Logos/ProgrammingLanguages/mips.png" alt= "MIPS Logo" width="84" height="84"/>
+			<img title="Prolog" src="../../Images/Logos/ProgrammingLanguages/prolog.png" alt= "Prolog Logo" width="84" height="84"/>
+			<img title="Scheme" src="../../Images/Logos/ProgrammingLanguages/scheme.png" alt= "Scheme Logo" width="84" height="84"/>
+		</div>
+	  </section>
+	  
+	  <br><br>
+	  
+	  <section id="sectionTools">
+		<h2>Tools</h2>
+		<div>
+			<img title="Unity3D" src="../../Images/Logos/unity.png" alt= "Unity Logo" width="84" height="84"/>
+			<img title="Unreal Engine" src="../../Images/Logos/unreal.png" alt= "Unreal Logo" width="84" height="84"/>
+			<img title="Visual Studio" src="../../Images/Logos/vs.png" alt= "Visual Studio Logo" width="84" height="84"/>
+			<img title="GameMaker" src="../../Images/Logos/gamemaker.png" alt= "GameMaker Logo" width="84" height="84"/>
+			<img title="MonoGame" src="../../Images/Logos/monogame.png" alt= "MonoGame Logo" width="84" height="84"/>
+			<img title="Linux Ubuntu" src="../../Images/Logos/ubuntu.png" alt= "Ubuntu Logo" width="84" height="84"/>
+		</div>
+	  </section>
+	  
+	  <section id="sectionContacts">
+		<div class="footer">
+			<footer>				
+				<nav>
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="index.html#sectionAbout">ABOUT</a></li>
+						<li><a href="index.html#sectionSkills">SKILLS</a></li>
+						<li><a href="index.html#sectionProjects">PROJECTS</a></li>
+					</ul>
+				</nav>
+				
+				<p class="name">Nicholas Hildebrant | Software Engineer</p>
+			</footer>
+		</div>
+	  </section>
+	  
 	</body>
 </html>
