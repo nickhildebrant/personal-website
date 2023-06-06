@@ -175,7 +175,7 @@ h2 {
 	length: 48px;
 }
 
-.footer ul {
+.footer a {
 	list-style: none;
 	font-size: 18px;
 	line-height: 1.6;
@@ -186,14 +186,14 @@ h2 {
 	display: inline;
 }
 
-.footer ul a {
+.footer a {
 	color: inherit;
 	text-decoration: none;
 	opacity: 0.5;
 	display: inline;
 }
 
-.footer ul a:hover {
+.footer a:hover {
 	opacity: 1;
 }
 
